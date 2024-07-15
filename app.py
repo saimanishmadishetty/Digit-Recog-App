@@ -47,7 +47,7 @@ if uploaded_file is not None:
     # Add a button to trigger the classification
     if st.button('🔍 Classify Image'):
         vps_model_client = model.ModelClient()
-        model_id = "mdl-z3igbiiqqbyzj"  # Replace with your model ID
+        model_id = "mdl-svxabb9ffpvhx"  # Replace with your model ID
 
         try:
             api_response = vps_model_client.predict(model_id=model_id, input_data=image_features[0])
